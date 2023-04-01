@@ -1,0 +1,7 @@
+digraph G {
+	//rankdir=LR
+	node [fontname=Courier, labeljust=r];
+	 "0x9bd4d30" [shape=box, label = "0x00417000 31C9                            xor ecx,ecx\l0x00417002 F7E1                            mul ecx\l0x00417004 B00B                            mov al,0xb\l0x00417006 682F736800                      push dword 0x68732f\l0x0041700b 682F62696E                      push dword 0x6e69622f\l0x00417010 89E3                            mov ebx,esp\l"]
+	 "0x9bd7bf8" [shape=box, style=filled, color=".7 .3 1.0", label = "0x00417012 execve\l"]
+	 "0x9bd4d30" -> "0x9bd7bf8" [style = bold ]
+}
