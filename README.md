@@ -8,3 +8,4 @@ The blog posts can be found at:
 - Assignment #3: https://geobour98.github.io/blog/slae32-3-egg-hunter/
 - Assignment #4: https://geobour98.github.io/blog/slae32-4-custom-encoder/
 - Assignment #5: https://geobour98.github.io/blog/slae32-5-msfvenom-payloads/
+- Assignment #6: https://geobour98.github.io/blog/slae32-6-polymorphic-shellcodes/
